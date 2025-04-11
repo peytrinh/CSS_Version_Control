@@ -1,8 +1,8 @@
 /* === General Styles === */
 body {
-    background-color: #fff0f5;
-    color: #2c2c2c;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FDF7EE; /* Soft Cream */
+    color: #2f2f2f; /* Charcoal Text */
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -11,16 +11,16 @@ body {
 
 /* === Navigation Bar === */
 .navbar {
-    background-color: #ffccdd;
+    background-color: #D0AC9C; /* Blush Pink */
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 15px 0;
-    border-bottom: 2px solid #ff99cc;
+    border-bottom: 2px solid #C69284;
 }
 
 .navbar a {
-    color: #6b006b;
+    color: #FEFBF8;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
@@ -31,18 +31,23 @@ body {
 }
 
 /* === Typography === */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
 h1 {
-    color: #cc0077;
+    color: #2f2f2f;
     font-size: 2.5rem;
 }
 
 h2 {
-    color: #b30059;
+    color: #3c3c3c;
     font-size: 2rem;
 }
 
 h3 {
-    color: #800040;
+    color: #4f4f4f;
     font-size: 1.5rem;
 }
 
@@ -51,25 +56,24 @@ p, li {
 }
 
 .highlight {
-    color: #228b22;
+    color: #74816b;
     font-weight: bold;
 }
 
 /* === Project Cards === */
 .project-card {
     width: 700px;
-    background-color: #ffe6f0;
+    background-color: #F5EDE3;
     padding: 15px;
     margin: 20px auto;
-    border: 1px solid #ffb3d9;
+    border: 1px solid #E2DAC3;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(255, 105, 180, 0.2);
+    box-shadow: 2px 2px 8px rgba(214, 169, 169, 0.2);
 }
 
 .project-card img {
     width: 100%;
     max-width: 500px;
-    height: auto;
     display: block;
     margin-top: 10px;
     border-radius: 8px;
@@ -83,28 +87,20 @@ table {
     max-width: 100%;
     border-collapse: collapse;
     text-align: center;
+    background-color: #F7EDE4;
+    border: 1px solid #e6cfcf;
 }
 
 td, th {
     padding: 12px 20px;
-    border: 1px solid #ff99cc;
+    border: 1px solid #e6cfcf;
 }
 
 th {
-    background-color: #ffe6ef;
-    color: #2c2c2c;
+    background-color: #F1E2D8;
+    color: #2f2f2f;
 }
 
-/* === Responsive Flex (optional use) === */
-.flexbox-element {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* === Responsive Images === */
 img {
     max-width: 100%;
-    height: auto;
 }
